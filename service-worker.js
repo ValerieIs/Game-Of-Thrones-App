@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/game-of-thrones-app/precache-manifest.2a6c6767424e78e657ccf46becc56412.js"
+  "/Game-Of-Thrones-App/precache-manifest.e4e2d4e6938ffe0702ed8a2f02479b3c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/game-of-thrones-app/index.html", {
+workbox.routing.registerNavigationRoute("/Game-Of-Thrones-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
